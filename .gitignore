@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Data & Models cache
+data/processed/*
+!data/processed/.gitkeep
+data/raw_pdfs/*.pdf
+!data/raw_pdfs/.gitkeep
+chroma_db/
+faiss_index/
+.cache/
+models/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store

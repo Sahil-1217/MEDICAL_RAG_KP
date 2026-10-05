@@ -1,0 +1,48 @@
+# Core RAG Framework & Orchestration
+langchain>=0.2.0,<0.4.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+
+# Vector Databases & Search
+chromadb>=0.5.0
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# Deep Learning & Transformers
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=2.6.0
+tiktoken>=0.7.0
+openai>=1.30.0
+
+# Document Ingestion & External APIs
+pdfplumber>=0.10.3
+pypdf>=4.2.0
+biopython>=1.83
+gdown>=5.0.0
+
+# Classical NLP, Biomedical NER & Unsupervised ML
+numpy>=1.26.0,<2.0.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+spacy>=3.7.2,<3.8.0
+scispacy>=0.5.4
+
+# Evaluation & Metrics
+ragas>=0.1.9
+datasets>=2.18.0
+
+# Frontend & Visualization
+streamlit>=1.35.0
+
+# Utilities, Settings & Testing
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+rich>=13.7.0
+tqdm>=4.66.0
+requests>=2.31.0
