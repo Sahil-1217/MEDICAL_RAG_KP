@@ -29,6 +29,8 @@ pandas>=2.2.0
 scikit-learn>=1.4.0
 spacy>=3.7.2,<3.8.0
 scispacy>=0.5.4
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+pip-system-certs>=5.0.0
 
 # Evaluation & Metrics
 ragas>=0.1.9

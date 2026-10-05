@@ -663,6 +663,8 @@ class GoogleDriveIngestor:
             List of downloaded PDF file Paths.
         """
         import gdown
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         clean_url = url.strip()
         if not clean_url:
@@ -682,6 +684,7 @@ class GoogleDriveIngestor:
                     output=str(self.download_dir),
                     quiet=False,
                     use_cookies=False,
+                    verify=False,
                 )
                 if downloaded:
                     downloaded_paths = [Path(p) for p in downloaded if str(p).lower().endswith(".pdf")]
@@ -692,6 +695,7 @@ class GoogleDriveIngestor:
                     output=str(self.download_dir) + "/",
                     quiet=False,
                     fuzzy=True,
+                    verify=False,
                 )
                 if output_file and Path(output_file).is_file():
                     downloaded_paths.append(Path(output_file))

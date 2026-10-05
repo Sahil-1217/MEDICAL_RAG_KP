@@ -1,3 +1,12 @@
+---
+title: MediRAG - Medical Research Assistant
+emoji: 🩺
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: app/streamlit_app.py
+---
+
 # 🩺 MediRAG: Medical Research Assistant (Agentic RAG System)
 
 A production-grade, highly modular, and fully tested **Agentic Retrieval-Augmented Generation (RAG) System** designed for clinical decision support and medical literature synthesis. The system adheres to strict clinical grounding protocols, combining **Classical NLP**, **Unsupervised Machine Learning**, **Supervised Deep Learning**, and **LLM Agents** with automated **NLI Grounding Verification**.
